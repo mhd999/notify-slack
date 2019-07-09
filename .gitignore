@@ -1,0 +1,8 @@
+.DS_Store
+# golang output binary directory
+bin
+
+# golang vendor (dependencies) directory
+vendor
+
+env.list
