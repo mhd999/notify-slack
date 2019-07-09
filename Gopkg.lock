@@ -71,6 +71,14 @@
   version = "v1.2.2"
 
 [[projects]]
+  digest = "1:8952be4c8d549a2bc71d6008d0da9f7a507e2ddcccd7ff651e043e5060373b20"
+  name = "github.com/telia-oss/aws-notify-slack"
+  packages = ["slack"]
+  pruneopts = ""
+  revision = "38e874b07b32bdcc59bdcd39e57038b977a1e123"
+  version = "0.1.1"
+
+[[projects]]
   branch = "master"
   digest = "1:7a1f3a425a5c3cbef7ff19f11aeef1b3c057a71b4df7f396af5c62cd220ba120"
   name = "golang.org/x/net"
@@ -113,6 +121,7 @@
     "github.com/aws/aws-lambda-go/lambda",
     "github.com/parnurzeal/gorequest",
     "github.com/stretchr/testify/assert",
+    "github.com/telia-oss/aws-notify-slack/slack",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1
