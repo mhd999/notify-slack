@@ -20,13 +20,15 @@ script:
 - make build
 deploy:
   - provider: script
-    script: make build
+    script: 
+      make build  &&
+      make zip
     on:
       branch: master
-  - provider: script
-    script: make zip
-    on:
-      branch: master
+  # - provider: script
+  #   script: make zip
+  #   on:
+  #     branch: master
   # - provider: script
   #   script: make deploy
   #   on:
