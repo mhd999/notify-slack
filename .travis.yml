@@ -22,7 +22,8 @@ deploy:
   - provider: script
     script: 
       make build  &&
-      make zip
+      make zip &&
+      make deploy
     on:
       branch: master
   # - provider: script
